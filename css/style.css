@@ -1,0 +1,102 @@
+
+.styleheader1{
+    font-weight : bold;
+    font-size : 20px;
+    margin : 20px;
+    text-align:center;
+}
+
+.linksStyle{
+    font-weight : bold;
+    font-size : 16px;
+    padding:5px 25px;
+    text-decoration: none;
+    color: #7056B9;
+}
+.divLogin{
+    margin:20px 10px;
+    text-align:center;
+}
+
+.loginBtn{
+    font-weight : bold;
+    font-size : 16px;
+    padding:5px 25px;
+    border:1px solid #e8e8e8;
+    width:auto;
+}
+
+.styleheader3{
+    width: 15%;
+    float:left;
+    font-weight : bold;
+    font-size : 20px;
+}
+
+styleheadertableDiv{
+    width: 100%;
+    padding : 20px;
+}
+
+.table{
+    width: 100%;
+}
+
+.tdwidthSearch{
+    width: 13%;
+    text-align : center;
+    font-weight : bold;
+    padding-bottom : 10px;
+}
+
+.tdwidthSearchbox{
+   
+    padding-bottom : 10px;
+}
+
+.tdwidth1{
+    width: 13%;
+    border : 1px solid #000;
+    text-align : center;
+    font-weight : bold;
+}
+.tdwidth2{
+    width: 20%;
+    border : 1px solid #000;
+    text-align : center;
+    font-weight : bold;
+}
+.tdwidth3{
+    width: 67%;
+    border : 1px solid #000;
+    text-align : center;
+    font-weight : bold;
+}
+.tdwidthIn1{
+    width: 13%;
+    border : 1px solid #000;
+    text-align : center;
+    
+}
+.tdwidthIn2{
+    width: 20%;
+    border : 1px solid #000;
+    text-align : center;
+    
+}
+.tdwidthIn3{
+    width: 67%;
+    border : 1px solid #000;
+    text-align : center;
+   
+}
+.loginBtnStyle{
+	font-weight: bold; 
+	border: 1px solid rgb(181, 181, 181); 
+	border-radius: 8px 8px 8px 8px; 
+	padding: 6px; 
+	background-color: rgb(181, 181, 181);
+	text-decoration: none;
+	color : #000000;
+}
+

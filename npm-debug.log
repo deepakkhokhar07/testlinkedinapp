@@ -1,0 +1,194 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/root/.nvm/versions/node/v4.0.0/bin/node',
+1 verbose cli   '/root/.nvm/versions/node/v4.0.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-global' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose install initial load of /home/vaibhavj/Backup/reactApp/package.json
+5 warn package.json reachapp@1.0.0 No repository field.
+6 warn package.json reachapp@1.0.0 No README data
+7 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-core/package.json
+8 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-loader/package.json
+9 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-preset-es2015/package.json
+10 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-preset-react/package.json
+11 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/react/package.json
+12 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/react-bootstrap-table/package.json
+13 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/react-dom/package.json
+14 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/react-global/package.json
+15 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/react-native-storage/package.json
+16 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/react-router/package.json
+17 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/webpack/package.json
+18 verbose installManyTop reading scoped package data from /home/vaibhavj/Backup/reactApp/node_modules/webpack-dev-server/package.json
+19 verbose readDependencies loading dependencies from /home/vaibhavj/Backup/reactApp/package.json
+20 verbose install react-global is installed as 0.1.8
+21 silly cache add args [ 'react-global', null ]
+22 verbose cache add spec react-global
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'react-global',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'react-global',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: '*',
+23 silly cache add   type: 'range' }
+24 silly addNamed react-global@*
+25 verbose addNamed "*" is a valid semver range for react-global
+26 silly addNameRange { name: 'react-global', range: '*', hasData: false }
+27 silly mapToRegistry name react-global
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/react-global
+31 verbose addNameRange registry:https://registry.npmjs.org/react-global not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/react-global
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 3:40:03 PM
+35 verbose request id 9ce40d73b95c5583
+36 verbose etag "99SO2A31FJBY59QUV6KZ6CY9M"
+37 http request GET https://registry.npmjs.org/react-global
+38 http 304 https://registry.npmjs.org/react-global
+39 silly get cb [ 304,
+39 silly get   { date: 'Wed, 08 Jun 2016 10:09:11 GMT',
+39 silly get     via: '1.1 varnish',
+39 silly get     'cache-control': 'max-age=300',
+39 silly get     etag: '"99SO2A31FJBY59QUV6KZ6CY9M"',
+39 silly get     age: '18',
+39 silly get     connection: 'keep-alive',
+39 silly get     'x-served-by': 'cache-sin6922-SIN',
+39 silly get     'x-cache': 'HIT',
+39 silly get     'x-cache-hits': '1',
+39 silly get     'x-timer': 'S1465380551.020914,VS0,VE0',
+39 silly get     vary: 'Accept-Encoding' } ]
+40 verbose etag https://registry.npmjs.org/react-global from cache
+41 verbose get saving react-global to /root/.npm/registry.npmjs.org/react-global/.cache.json
+42 silly addNameRange number 2 { name: 'react-global', range: '*', hasData: true }
+43 silly addNameRange versions [ 'react-global',
+43 silly addNameRange   [ '0.1.0',
+43 silly addNameRange     '0.1.1',
+43 silly addNameRange     '0.1.2',
+43 silly addNameRange     '0.1.3',
+43 silly addNameRange     '0.1.4',
+43 silly addNameRange     '0.1.5',
+43 silly addNameRange     '0.1.6',
+43 silly addNameRange     '0.1.7',
+43 silly addNameRange     '0.1.8' ] ]
+44 silly addNamed react-global@0.1.8
+45 verbose addNamed "0.1.8" is a plain semver version for react-global
+46 silly cache afterAdd react-global@0.1.8
+47 verbose afterAdd /root/.npm/react-global/0.1.8/package/package.json not in flight; writing
+48 verbose afterAdd /root/.npm/react-global/0.1.8/package/package.json written
+49 silly install resolved [ { name: 'react-global',
+49 silly install resolved     version: '0.1.8',
+49 silly install resolved     description: 'Global variables for isomorphic React applications',
+49 silly install resolved     main: './index',
+49 silly install resolved     scripts: { test: 'echo "Error: no test specified" && exit 1' },
+49 silly install resolved     repository:
+49 silly install resolved      { type: 'git',
+49 silly install resolved        url: 'git+https://github.com/captivationsoftware/react-global.git' },
+49 silly install resolved     keywords: [ 'React', 'Constant', 'Global', 'Isomorphic' ],
+49 silly install resolved     author: { name: 'Captivation Software, c/o @theadam' },
+49 silly install resolved     license: 'MIT',
+49 silly install resolved     bugs: { url: 'https://github.com/captivationsoftware/react-global/issues' },
+49 silly install resolved     homepage: 'https://github.com/captivationsoftware/react-global',
+49 silly install resolved     peerDependencies: { react: '0.x' },
+49 silly install resolved     gitHead: 'd49cea7ee9ed8add98fc33382fd2734e11c6c036',
+49 silly install resolved     _id: 'react-global@0.1.8',
+49 silly install resolved     _shasum: 'a3ee5a5bc5c8dc75fc36bf62baa00665cffbcdfd',
+49 silly install resolved     _from: 'react-global@*',
+49 silly install resolved     _npmVersion: '1.4.23',
+49 silly install resolved     _npmUser: { name: 'dbarbalato', email: 'dbarbalato@gmail.com' },
+49 silly install resolved     maintainers: [ [Object] ],
+49 silly install resolved     dist:
+49 silly install resolved      { shasum: 'a3ee5a5bc5c8dc75fc36bf62baa00665cffbcdfd',
+49 silly install resolved        tarball: 'https://registry.npmjs.org/react-global/-/react-global-0.1.8.tgz' },
+49 silly install resolved     directories: {},
+49 silly install resolved     _resolved: 'https://registry.npmjs.org/react-global/-/react-global-0.1.8.tgz',
+49 silly install resolved     readme: 'ERROR: No README data found!' } ]
+50 info install react-global@0.1.8 into /home/vaibhavj/Backup/reactApp
+51 info installOne react-global@0.1.8
+52 verbose installOne of react-global to /home/vaibhavj/Backup/reactApp not in flight; installing
+53 verbose lock using /root/.npm/_locks/react-global-43c61c63978ae94c.lock for /home/vaibhavj/Backup/reactApp/node_modules/react-global
+54 silly install write writing react-global 0.1.8 to /home/vaibhavj/Backup/reactApp/node_modules/react-global
+55 verbose unbuild node_modules/react-global
+56 info preuninstall react-global@0.1.8
+57 info uninstall react-global@0.1.8
+58 verbose unbuild rmStuff react-global@0.1.8 from /home/vaibhavj/Backup/reactApp/node_modules
+59 info postuninstall react-global@0.1.8
+60 silly gentlyRm /home/vaibhavj/Backup/reactApp/node_modules/react-global is being purged from base /home/vaibhavj/Backup/reactApp
+61 verbose gentlyRm don't care about contents; nuking /home/vaibhavj/Backup/reactApp/node_modules/react-global
+62 silly vacuum-fs purging /home/vaibhavj/Backup/reactApp/node_modules/react-global
+63 silly vacuum-fs quitting because other entries in /home/vaibhavj/Backup/reactApp/node_modules
+64 verbose tar unpack /root/.npm/react-global/0.1.8/package.tgz
+65 verbose tar unpacking to /home/vaibhavj/Backup/reactApp/node_modules/react-global
+66 silly gentlyRm /home/vaibhavj/Backup/reactApp/node_modules/react-global is being purged
+67 verbose gentlyRm don't care about contents; nuking /home/vaibhavj/Backup/reactApp/node_modules/react-global
+68 silly gunzTarPerm modes [ '755', '644' ]
+69 silly gunzTarPerm extractEntry package.json
+70 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+71 silly gunzTarPerm extractEntry README.md
+72 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+73 silly gunzTarPerm extractEntry LICENSE
+74 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+75 silly gunzTarPerm extractEntry index.js
+76 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+77 silly gunzTarPerm extractEntry lib/global.js
+78 silly gunzTarPerm modified mode [ 'lib/global.js', 436, 420 ]
+79 verbose write writing to /home/vaibhavj/Backup/reactApp/node_modules/react-global/package.json
+80 info preinstall react-global@0.1.8
+81 verbose readDependencies loading dependencies from /home/vaibhavj/Backup/reactApp/node_modules/react-global/package.json
+82 silly prepareForInstallMany adding react@0.x from react-global peerDependencies
+83 warn peerDependencies The peer dependency react@0.x included from react-global will no
+84 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+85 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+86 verbose readDependencies loading dependencies from /home/vaibhavj/Backup/reactApp/node_modules/react-global/package.json
+87 silly install resolved []
+88 verbose about to build /home/vaibhavj/Backup/reactApp/node_modules/react-global
+89 info build /home/vaibhavj/Backup/reactApp/node_modules/react-global
+90 info linkStuff react-global@0.1.8
+91 silly linkStuff react-global@0.1.8 has /home/vaibhavj/Backup/reactApp/node_modules as its parent node_modules
+92 verbose linkBins react-global@0.1.8
+93 verbose linkMans react-global@0.1.8
+94 verbose rebuildBundles react-global@0.1.8
+95 info install react-global@0.1.8
+96 info postinstall react-global@0.1.8
+97 verbose readDependencies loading dependencies from /home/vaibhavj/Backup/reactApp/package.json
+98 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-core/package.json
+99 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-loader/package.json
+100 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-preset-es2015/package.json
+101 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/babel-preset-react/package.json
+102 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/react/package.json
+103 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/react-bootstrap-table/package.json
+104 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/react-dom/package.json
+105 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/react-global/package.json
+106 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/react-native-storage/package.json
+107 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/react-router/package.json
+108 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/webpack/package.json
+109 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/webpack-dev-server/package.json
+110 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/.bin/webpack/package.json
+111 verbose targetResolver reading package data from /home/vaibhavj/Backup/reactApp/node_modules/.bin/webpack-dev-server/package.json
+112 verbose already installed skipping react@0.x /home/vaibhavj/Backup/reactApp
+113 silly install resolved []
+114 verbose unlock done using /root/.npm/_locks/react-global-43c61c63978ae94c.lock for /home/vaibhavj/Backup/reactApp/node_modules/react-global
+115 verbose validateInstall loading /home/vaibhavj/Backup/reactApp/package.json for validation
+116 verbose stack Error: The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/lib/install.js:125:32
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/lib/install.js:268:7
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+116 verbose stack     at cb (/root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+116 verbose stack     at cb (/root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+116 verbose stack     at cb (/root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+116 verbose stack     at /root/.nvm/versions/node/v4.0.0/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+117 verbose cwd /home/vaibhavj/Backup/reactApp
+118 error Linux 3.13.0-32-generic
+119 error argv "/root/.nvm/versions/node/v4.0.0/bin/node" "/root/.nvm/versions/node/v4.0.0/bin/npm" "install" "react-global"
+120 error node v4.0.0
+121 error npm  v2.14.2
+122 error code EPEERINVALID
+123 error peerinvalid The package react@15.1.0 does not satisfy its siblings' peerDependencies requirements!
+123 error peerinvalid Peer react-bootstrap-table@2.3.4 wants react@^0.14.3 || ^15.0.0
+123 error peerinvalid Peer react-dom@15.1.0 wants react@^15.1.0
+123 error peerinvalid Peer react-router@2.4.1 wants react@^0.14.0 || ^15.0.0
+123 error peerinvalid Peer react-global@0.1.8 wants react@0.x
+124 verbose exit [ 1, true ]
